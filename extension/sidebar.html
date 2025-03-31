@@ -1,0 +1,40 @@
+<div class="sidebar-container">
+    <div class="header">
+        <div class="logo-section">
+            <span class="title">Page Assistant</span>
+            <span class="ai-icon">AI</span>            
+        </div>
+        <div class="window-controls">
+            <button id="clear-history" class="clear-history-btn" title="Clear History">🗑️</button>
+            <button id="close-sidebar" class="control-btn">X</button>
+        </div>
+    </div>
+
+    <div id="sidebar-content" class="content-area">
+        <div class="content-placeholder">Results will appear here...</div>
+    </div>
+
+    <div class="actions">
+        <button id="summarize-button" class="action-btn">
+            <span class="icon">📝</span>
+            Summarize Page
+        </button>
+        <button id="suggest-button" class="action-btn">
+            <span class="icon">💡</span>
+            Suggest Questions
+        </button>
+    </div>
+
+    <div class="input-wrapper">
+        <div class="input-area">
+            <textarea
+                id="chat-input"
+                class="prompt-input"
+                placeholder="Enter a prompt here..."
+                rows="1"
+            ></textarea>
+            <button id="send-button" class="send-btn">→</button>
+        </div>
+    </div>
+</div>
+
